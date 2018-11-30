@@ -10,7 +10,7 @@
   <script src="main.js"></script>
   <style type="text/css">
     body {
-      font-size: 14px;
+      font-size: 16px;
       font-family: 'Exo', sans-serif;
       font-weight: 300;
       font-style: italic;
@@ -30,7 +30,7 @@
       grid-template-columns: 1fr minmax(100px, 500px) 1fr;
       grid-template-rows: 100px minmax(min-content, max-content) minmax(min-content, max-content) 100px;
       background: linear-gradient(
-        rgba(88, 169, 184, 0.25),
+        rgba(88, 169, 184, 0.3),
         rgba(9, 22, 47, 0.25),
         rgba(9, 22, 47, 0.45)
       );
@@ -41,6 +41,7 @@
     h1 {
       font-size: 36px;
       font-family: 'Racing Sans One', cursive;
+      letter-spacing: 1px;
     }
 
     .card {
@@ -51,6 +52,8 @@
       grid-template-rows: auto auto;
       background-color: #f2f4f3;
       border-radius: 5px;
+      border: 2px solid #f2f4f3;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.6);
     }
 
     .hero {
